@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --color-first: #1f2937;
+  --color-second: #e5e7eb;
+  --color-third: #3882f6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Source Serif 4', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: auto;
+  padding: 20px 100px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-container ul a {
+  color: var(--color-first);
+  font-size: 18px;
+  align-items: center;
+}
+
+.navbar-container ul a:hover {
+  color: rgba(0, 0, 0, 0.50);
+}
+
+.navbar li {
+  font-weight: bold;
+}
