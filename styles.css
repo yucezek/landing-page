@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,200;1,300;1,400&display=swap');
 
 :root {
   --color-first: #1f2937;
@@ -135,4 +135,31 @@ figure {
 
 figcaption {
   text-align: center;
+}
+
+/* Quote Section */
+.quote {
+  background-color: var(--color-second);
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  max-width: 640px;
+}
+
+.quote-text p {
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.quote-author p {
+  text-align: end;
+  font-size: 20px;
+  font-style: 700;
 }
