@@ -103,3 +103,36 @@ img {
   background-color:rgba(43, 99, 172, 0.5);
   cursor: pointer;
 }
+
+/* Images section */
+.images {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.images h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.images img {
+  width: 240px;
+  height: 300px;
+}
+
+.images .figures {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+figure {
+  flex: 1 1 0;
+}
+
+figcaption {
+  text-align: center;
+}
